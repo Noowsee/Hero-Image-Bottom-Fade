@@ -1,0 +1,46 @@
+@import url(//db.onlinewebfonts.com/c/6a28a1fb5b77054a12626d0c23c92aa2?family=CeraCY-Bold);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #20262a;
+}
+
+.hero {
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/nyc-skyline.png);
+    background-size: cover;
+    position: relative;
+}
+
+.hero > h2 {
+    font-family: 'CeraCY-Bold', sans-serif ;
+    text-transform: uppercase;
+    text-shadow: 3px 4px 7px #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 20vh;
+    text-align: center;
+    color: #fff;
+    font-size: 6rem;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, 
+    rgba(32, 38, 42, 1) 10%,
+    rgba(32, 38, 42, .7) 30%,
+    rgba(32, 38, 42, .4) 40%,  
+    rgba(32, 38, 42, 0) 100%);
+}
